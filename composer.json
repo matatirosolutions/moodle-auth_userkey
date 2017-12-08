@@ -1,0 +1,18 @@
+{
+    "name": "catalyst/moodle-auth_userkey",
+    "description": "Log in to Moodle using one time user key based login URL.",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Dmitrii Metelkin",
+            "email": "dmitriim@catalyst-au.net"
+        }
+    ],
+    "type": "moodle-auth",
+    "require": {
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "installer-name": "userkey"
+    }
+}
